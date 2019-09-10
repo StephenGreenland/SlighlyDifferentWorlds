@@ -10,6 +10,7 @@ public class spikeScript : MonoBehaviour
     bool isdead;
     float timer;
     public int currentlvl;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,7 @@ public class spikeScript : MonoBehaviour
             Destroy(other.gameObject);
             isdead = true;
             Debug.Log("imdying");
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Character/Death/Spike Impact", gameObject);
         }
 
 

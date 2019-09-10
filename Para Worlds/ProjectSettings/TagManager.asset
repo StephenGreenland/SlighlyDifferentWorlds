@@ -41,7 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Surface
   m_SortingLayers:
   - name: Default
     uniqueID: 0
