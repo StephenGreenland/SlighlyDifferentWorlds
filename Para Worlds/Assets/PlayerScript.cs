@@ -43,7 +43,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam.gameObject.GetComponent<PostProcessVolume>().profile = dark;
+        //cam.gameObject.GetComponent<PostProcessVolume>().profile = dark;
         isGhost = false;
 
         canJump = true;
@@ -138,11 +138,13 @@ public class PlayerScript : MonoBehaviour
         {
             isGhost = false;
             cam.GetComponent<PostProcessVolume>().profile = dark;
+            this.gameObject.GetComponent<Renderer>().material = ghost;
         }
         else
         {
             isGhost = true;
             cam.gameObject.GetComponent<PostProcessVolume>().profile = notdark;
+            this.gameObject.GetComponent<Renderer>().material = notGhost;
         }
         Debug.Log(isGhost);
       //  gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y+100, gameObject.transform.position.z);
