@@ -17,5 +17,7 @@ public class CameraScript : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, player.transform.position.z);
 
+        transform.LookAt(player.transform);
+
     }
 }
