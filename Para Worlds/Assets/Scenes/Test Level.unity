@@ -850,7 +850,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71346444}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2064,7 +2064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2877,7 +2877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8e68a61274ba6d74cb33832b8d79bb11, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8e68a61274ba6d74cb33832b8d79bb11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3352,7 +3352,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532838542}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3500,7 +3500,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578471256}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4099,7 +4099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd8aea3bc4e2b8048acafa65712e30e7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd8aea3bc4e2b8048acafa65712e30e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4154,7 +4154,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753209594}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 19.684553, y: 20.088535, z: 29.641447}
@@ -4656,7 +4656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d67ef590d4f3b674eb75abe0bb6fedb6, type: 3}
       propertyPath: m_TagString
-      value: Floor
+      value: StoneFloor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d67ef590d4f3b674eb75abe0bb6fedb6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5054,7 +5054,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916632475}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5386,7 +5386,7 @@ PrefabInstance:
     - target: {fileID: 6177270973625778051, guid: a2092a63788ad3b4fba85ecb88fe56a1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6177270973625778051, guid: a2092a63788ad3b4fba85ecb88fe56a1,
         type: 3}
@@ -5503,7 +5503,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992361793}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5711,7 +5711,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008839905}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5758,7 +5758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5980,7 +5980,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037087667}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6249,7 +6249,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071217213}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6539,7 +6539,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137045117}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6564,7 +6564,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145009177}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6664,7 +6664,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181215249}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6680,7 +6680,7 @@ PrefabInstance:
     - target: {fileID: 7266860505523658854, guid: c629bdc32f25b0849a478067cfc24ba0,
         type: 3}
       propertyPath: m_Name
-      value: Player Variant
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7266860505523436614, guid: c629bdc32f25b0849a478067cfc24ba0,
         type: 3}
@@ -6720,7 +6720,7 @@ PrefabInstance:
     - target: {fileID: 7266860505523436614, guid: c629bdc32f25b0849a478067cfc24ba0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7266860505523436614, guid: c629bdc32f25b0849a478067cfc24ba0,
         type: 3}
@@ -7193,7 +7193,7 @@ Transform:
   - {fileID: 1004432679}
   - {fileID: 1409473791}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241358477 stripped
 GameObject:
@@ -7789,7 +7789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8e68a61274ba6d74cb33832b8d79bb11, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8e68a61274ba6d74cb33832b8d79bb11, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8098,7 +8098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8238,7 +8238,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356159219}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -8970,7 +8970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9217,7 +9217,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511392941}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -9555,7 +9555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d67ef590d4f3b674eb75abe0bb6fedb6, type: 3}
       propertyPath: m_TagString
-      value: Floor
+      value: StoneFloor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d67ef590d4f3b674eb75abe0bb6fedb6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10457,7 +10457,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738769912}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10482,7 +10482,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751039085}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10529,7 +10529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae009c838f4fce944a612739d42429ee, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae009c838f4fce944a612739d42429ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10722,7 +10722,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762584256}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -11406,7 +11406,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905067867}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -11527,7 +11527,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925382612}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12246,7 +12246,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052220762}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12516,7 +12516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b07a73c972593b478e3ec2f55cff7f1, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b07a73c972593b478e3ec2f55cff7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12600,7 +12600,7 @@ PrefabInstance:
     - target: {fileID: 6673123290474727041, guid: b92e812e533374245a039b53c6263462,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6673123290474727041, guid: b92e812e533374245a039b53c6263462,
         type: 3}
@@ -12653,7 +12653,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118498386}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b76d3823bb215f342aff06c04177ba87, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12700,7 +12700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12490f37317eb6246a6fc83414a27e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
