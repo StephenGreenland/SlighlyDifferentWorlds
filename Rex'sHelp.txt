@@ -1,0 +1,8 @@
++ Problem space is unclear, abilities aren't well defined
++ Punishment for misenterpreting first puzzle is harsh and it's unclear what the player has done wrong
++ Motivation is unclear, what's the thematic reason for doing any of this?
++ It's possible to fireball barriers off-screen, if the player does this in the first area, it's unclear what will solve the barrier in the second level.
++ Movement is slidey
++ Movement control and response changes dramatically alongside level scale change, this should be consistent
+++ Input was being received in FixedUpdate, you should use Update for this
+++ Input needs to take into account ergonomics of human player- try to separate utility/fire keys and motion control. You should use Input.GetAxis instead of keypresses to support controllers or alternative key setups.

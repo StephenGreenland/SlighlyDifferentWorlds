@@ -63,7 +63,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         dashTimer -= Time.deltaTime;
         canDashTimer -= Time.deltaTime;
@@ -80,21 +80,24 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKeyDown("r"))
         {
+        
             Mirror();
             MirrorAudio.start();
 
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetAxisRaw("Horizontal")>0.1f)
         {
             this.gameObject.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
             rb.AddRelativeForce(Vector3.forward * speed);           
         }
-        if (Input.GetKey("a"))
+        if (Input.GetAxisRaw("Horizontal") < -0.1f)
         {
             rb.AddRelativeForce(Vector3.forward * speed);
             this.gameObject.GetComponent<Transform>().rotation = Quaternion.Euler(0, 180, 0);
         }
+
+        //if no movement is being applied, arrest horizontal motion
 
 
         if (Input.GetKeyDown("e"))
