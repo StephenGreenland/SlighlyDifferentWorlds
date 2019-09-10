@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 
+    public Material ghost;
+    public Material notGhost;
+
+
     private Rigidbody rb;
     public float speed;
     public float jump;
@@ -17,7 +21,7 @@ public class PlayerScript : MonoBehaviour
 
     public float dashTimer;
 
-    private bool isGhost;
+    public bool isGhost;
     private int howManyJumps;
     private int jumps;
     public GameObject fireBall;
@@ -133,6 +137,7 @@ public class PlayerScript : MonoBehaviour
             isGhost = true;
         }
         Debug.Log(isGhost);
+      //  gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y+100, gameObject.transform.position.z);
     }
 
     void Jump()
@@ -146,7 +151,6 @@ public class PlayerScript : MonoBehaviour
             howManyJumps = 1;
         }
         
-
         if (canJump)
         {
             rb.AddRelativeForce(Vector3.up * jump);
@@ -174,8 +178,7 @@ public class PlayerScript : MonoBehaviour
 
     void Ghost()
     {
-       // change look;
-             
+       // change look;      
     }
     void FireBall()
     {
