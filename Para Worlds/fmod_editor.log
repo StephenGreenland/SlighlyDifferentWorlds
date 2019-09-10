@@ -15,11 +15,123 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEE1B68
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_CONCRETE_41Khz_2D_1', format=2, channels=2, frequency=48000, lengthbytes=640, lengthpcm=2016, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEE1B68
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_DIRT_41Khz_Edit_1', format=2, channels=2, frequency=48000, lengthbytes=3456, lengthpcm=13622, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.528819.
+[LOG] SoundI::release                          :  (00000000675914A8)
+[LOG] SoundI::release                          :     FS_CONCRETE_41Khz_2D_1 (000000004392BC68)
+[LOG] SoundI::release                          :  (0000000067591788)
+[LOG] SoundI::release                          :     FS_DIRT_41Khz_Edit_1 (000000004392CCA8)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEDEE08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_CONCRETE_41Khz_2D_1', format=2, channels=2, frequency=48000, lengthbytes=640, lengthpcm=2016, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEDEE08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_DIRT_41Khz_Edit_1', format=2, channels=2, frequency=48000, lengthbytes=3456, lengthpcm=13622, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.528819.
+[LOG] SoundI::release                          :  (00000000675914A8)
+[LOG] SoundI::release                          :     FS_CONCRETE_41Khz_2D_1 (000000004392C7C8)
+[LOG] SoundI::release                          :  (0000000067591788)
+[LOG] SoundI::release                          :     FS_DIRT_41Khz_Edit_1 (0000000043929708)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEE0CF8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_CONCRETE_41Khz_2D_1', format=2, channels=2, frequency=48000, lengthbytes=640, lengthpcm=2016, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2705664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24192
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007356F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD54D07050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD54D07020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD54D07120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD54D071E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004AEE0CF8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FS_DIRT_41Khz_Edit_1', format=2, channels=2, frequency=48000, lengthbytes=3456, lengthpcm=13622, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.528819.
+[LOG] SoundI::release                          :  (00000000675918F8)
+[LOG] SoundI::release                          :     FS_CONCRETE_41Khz_2D_1 (000000004392B448)
+[LOG] SoundI::release                          :  (00000000675914A8)
+[LOG] SoundI::release                          :     FS_DIRT_41Khz_Edit_1 (0000000043929BE8)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
-[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
-[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)

@@ -116,12 +116,12 @@ public class PlayerScript : MonoBehaviour
         }
 
         //World Change Audio
-        if (isGhost == true)
+            if (isGhost == true)
         {
                 AmbAudio.setParameterByName("WorldChange", 0f);
         }
 
-        if (isGhost == false)
+            if (isGhost == false)
         {
                 AmbAudio.setParameterByName("WorldChange", 1f);
         }
