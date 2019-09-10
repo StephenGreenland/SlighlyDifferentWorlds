@@ -8,6 +8,7 @@ TagManager:
   - StoneFloor
   - Fire
   - GhostWall
+  - FireBall
   layers:
   - Default
   - TransparentFX
