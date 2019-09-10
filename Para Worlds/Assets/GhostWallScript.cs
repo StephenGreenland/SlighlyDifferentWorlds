@@ -31,7 +31,7 @@ public class GhostWallScript : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && player.gameObject.GetComponent<PlayerScript>().isGhost == false)
+        if (other.gameObject.tag == "Player" && player.gameObject.GetComponent<PlayerScript>().isGhost == true)
         {
             //crate partical effect
             Destroy(other.gameObject);
