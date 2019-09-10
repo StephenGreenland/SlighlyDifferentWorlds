@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{14fe3bd2-c41e-492c-aa67-7468d9853411}">
 		<property name="name">
-			<value>World Change</value>
+			<value>WorldChange</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e700808f-a041-4300-aad4-c35bffb4e91d}</destination>
@@ -14,6 +14,9 @@
 	<object class="GameParameter" id="{7d551cda-4913-40cf-ab88-b2da1fc6997c}">
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>5</value>
 		</property>
 	</object>
 </objects>
