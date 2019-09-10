@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class finishLine : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+
+    public int nextLevel;
+    public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject);
-            SceneManager.LoadScene("Test Level");
-            Debug.Log("Dis Bitch Changing. YEET!");
+            SceneManager.LoadScene(nextLevel);
+
         }
     }
 }
