@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
 
 public class PlayerScript : MonoBehaviour
 {
+    public GameObject cam;
 
     public Material ghost;
     public Material notGhost;
 
+    public PostProcessProfile notdark;
+    public PostProcessProfile dark;
 
     private Rigidbody rb;
     public float speed;
@@ -39,6 +43,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cam.gameObject.GetComponent<PostProcessVolume>().profile = dark;
         isGhost = false;
 
         canJump = true;
@@ -132,10 +137,12 @@ public class PlayerScript : MonoBehaviour
         if (isGhost == true)
         {
             isGhost = false;
+            cam.GetComponent<PostProcessVolume>().profile = dark;
         }
         else
         {
             isGhost = true;
+            cam.gameObject.GetComponent<PostProcessVolume>().profile = notdark;
         }
         Debug.Log(isGhost);
       //  gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y+100, gameObject.transform.position.z);
