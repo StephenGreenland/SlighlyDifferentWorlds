@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6ad60902-e8bb-4f36-8ce2-8b9d4188dbf4}">
+		<property name="assetPath">
+			<value>Ambience/Birds/339326__inspectorj__bird-whistling-a.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>24.056825396825396</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e129504-4940-4a32-a765-7a598a13e3e6}</destination>
+		</relationship>
+	</object>
+</objects>
