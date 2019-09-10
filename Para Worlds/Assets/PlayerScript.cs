@@ -6,6 +6,9 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PlayerScript : MonoBehaviour
 {
+
+    
+
     public GameObject cam;
 
     public Material ghost;
@@ -25,6 +28,8 @@ public class PlayerScript : MonoBehaviour
     public float dashSpeed;
 
     public float dashTimer;
+    private bool canDash;
+    private float canDashTimer;
 
     public bool isGhost;
     private int howManyJumps;
@@ -43,7 +48,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //cam.gameObject.GetComponent<PostProcessVolume>().profile = dark;
+        cam.gameObject.GetComponent<PostProcessVolume>().profile = notdark;
         isGhost = false;
 
         canJump = true;
@@ -61,7 +66,12 @@ public class PlayerScript : MonoBehaviour
     void FixedUpdate()
     {
         dashTimer -= Time.deltaTime;
+        canDashTimer -= Time.deltaTime;
 
+         if(canDashTimer < 0)
+        {
+            canDash = true;
+        }
         if(dashTimer < 0)
         {
             maxSpeed = 20f;
@@ -108,12 +118,12 @@ public class PlayerScript : MonoBehaviour
         //World Change Audio
         if (isGhost == true)
         {
-                AmbAudio.setParameterByName("WorldChange", 1f);
+                AmbAudio.setParameterByName("WorldChange", 0f);
         }
 
         if (isGhost == false)
         {
-                AmbAudio.setParameterByName("WorldChange", 0f);
+                AmbAudio.setParameterByName("WorldChange", 1f);
         }
 
 
@@ -137,17 +147,17 @@ public class PlayerScript : MonoBehaviour
         if (isGhost == true)
         {
             isGhost = false;
-            cam.GetComponent<PostProcessVolume>().profile = dark;
-            this.gameObject.GetComponent<Renderer>().material = ghost;
+            cam.GetComponent<PostProcessVolume>().profile = notdark;
+            this.gameObject.GetComponent<Renderer>().material = notGhost;
         }
         else
         {
             isGhost = true;
-            cam.gameObject.GetComponent<PostProcessVolume>().profile = notdark;
-            this.gameObject.GetComponent<Renderer>().material = notGhost;
+            cam.gameObject.GetComponent<PostProcessVolume>().profile = dark;
+            this.gameObject.GetComponent<Renderer>().material = ghost;
         }
         Debug.Log(isGhost);
-      //  gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y+100, gameObject.transform.position.z);
+     
     }
 
     void Jump()
@@ -175,7 +185,7 @@ public class PlayerScript : MonoBehaviour
 
     void Dash()
     {
-        if (isGhost == true)
+        if (isGhost == true && canDash == true)
         {
 
             maxSpeed = dashMaxSpeed;
@@ -183,6 +193,9 @@ public class PlayerScript : MonoBehaviour
             rb.useGravity = false;
             dashTimer = .5f;
             DashAudio.start();
+            canDashTimer = 2f;
+            canDash = false;
+
         }
     }
 
