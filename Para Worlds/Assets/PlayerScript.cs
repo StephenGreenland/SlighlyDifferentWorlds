@@ -121,22 +121,27 @@ public class PlayerScript : MonoBehaviour
         //World Change Audio
             if (isGhost == true)
         {
-                AmbAudio.setParameterByName("WorldChange", 0f);
+                AmbAudio.setParameterByName("WorldChange", 1f);
         }
 
             if (isGhost == false)
         {
-                AmbAudio.setParameterByName("WorldChange", 1f);
+                AmbAudio.setParameterByName("WorldChange", 0f);
         }
 
-
     }
+
+    void OnDestroy()
+    {
+        AmbAudio.release();
+    }
+
     void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "Floor"|| col.gameObject.tag == "StoneFloor")
         {
             canJump = true;
-            Debug.Log("canJump");
+            //Debug.Log("canJump");
             jumps = 0;
         }
         if (col.gameObject.tag == "GhostWall")

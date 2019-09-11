@@ -25,8 +25,9 @@ public class Blowlyupwall : MonoBehaviour
     {
         if(collision.gameObject.tag == "FireBall")
         {
-
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Environment/Brick Wall Destory", gameObject);
             Destroy(this.gameObject);
+            
         }
 
     }

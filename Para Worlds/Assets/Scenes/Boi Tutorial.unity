@@ -7347,7 +7347,7 @@ GameObject:
   - component: {fileID: 7266860504088807732}
   - component: {fileID: 7266860504088807735}
   - component: {fileID: 7266860504088807734}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -13114,7 +13114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7266860504631899082}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ShootPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
