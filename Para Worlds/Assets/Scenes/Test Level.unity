@@ -4241,8 +4241,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19.684553, y: 20.088535, z: 29.641447}
-  m_Center: {x: -6.321893, y: 9.544267, z: -4.7368236}
+  m_Size: {x: 19.684553, y: 52.24, z: 29.641447}
+  m_Center: {x: -6.321893, y: 23.9, z: -4.7368236}
 --- !u!1001 &770699273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6951,6 +6951,18 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1242886334}
+    - target: {fileID: 292657952, guid: c629bdc32f25b0849a478067cfc24ba0, type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 292657952, guid: c629bdc32f25b0849a478067cfc24ba0, type: 3}
+      propertyPath: jump
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 292657952, guid: c629bdc32f25b0849a478067cfc24ba0, type: 3}
+      propertyPath: maxSpeed
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c629bdc32f25b0849a478067cfc24ba0, type: 3}
 --- !u!4 &1186708759 stripped
