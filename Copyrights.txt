@@ -1,0 +1,13 @@
+UI Mockup:
+
+Creator: Jesse Anderton
+Sun Line Art - http://clipart-library.com/clipart/6ir5pbRAT.htm
+Crescent Moon - https://wikiclipart.com/moon-clipart-black-and-white_16305/
+Double Jump Image - https://www.pinclipart.com/pindetail/iiJTmw_jumping-clipart-triple-jump-double-jump-png-transparent/
+Cartoon Fire - https://www.kissclipart.com/flame-cartoon-clipart-fire-cartoon-clip-art-grmumu/
+
+
+Game:
+
+The main game - The Ladzzzz (Team 1)
+Fireball Asset - https://assetstore.unity.com/packages/vfx/particles/fire-explosions/fire-spell-effects-36825
