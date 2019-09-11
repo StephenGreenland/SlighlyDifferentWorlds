@@ -7,13 +7,104 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000000044822D18 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000000678BB068 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SystemI::createSound                     : filename = C:\Users\jfoster15\Documents\SlighlyDifferentWorlds\Para Worlds\FMOD\Jam Gam\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000000003D517C78 : node = 00000000400C8070
+[LOG] SystemI::createSound                     : add node to async list : head = 000000004031C0E8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003D517C78
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Users\jfoster15\Documents\SlighlyDifferentWorlds\Para Worlds\FMOD\Jam Gam\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1988736
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 24736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000400C8180
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='339326__inspectorj__bird-whistling-a', format=2, channels=2, frequency=48000, lengthbytes=314336, lengthpcm=1154727, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.118774.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003D517C78
+[LOG] SoundI::getSubSound                      : sound 000000003D517C78.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003D518188
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003D518188
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1988736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24736
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000A0A1F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF88A4E7050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF88A4E7020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF88A4E7120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF88A4E71E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006623C108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Brick_Wall_Destroy_2', format=2, channels=2, frequency=48000, lengthbytes=17600, lengthpcm=54617, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1988736
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 24736
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000A0A1F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF88A4E7050
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF88A4E7020
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF88A4E7120
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF88A4E71E0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000006623C108
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Brick_Wall_Destroy', format=2, channels=2, frequency=48000, lengthbytes=20384, lengthpcm=61583, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SoundI::release                          : 339326__inspectorj__bird-whistling-a (000000003D517C78)
+[LOG] SoundI::release                          :     339326__inspectorj__bird-whistling-a (0000000063417418)
+[LOG] SoundI::release                          :     339326__inspectorj__bird-whistling-a (000000003D518188)
+[LOG] SoundI::release                          : Wind_Nested_Loop (0000000080B51F48)
+[LOG] SoundI::release                          :     Wind_Nested_Loop (000000004031B0F8)
+[LOG] SoundI::release                          :     Wind_Nested_Loop (0000000080B51BE8)
+[LOG] SoundI::release                          : Music Omnious (0000000080B511C8)
+[LOG] SoundI::release                          :     Music Omnious (000000004031C138)
+[LOG] SoundI::release                          :     Music Omnious (0000000080B51A38)
+[LOG] SoundI::release                          :  (0000000080B74818)
+[LOG] SoundI::release                          :     Brick_Wall_Destroy (0000000063417758)
+[LOG] SoundI::release                          :  (0000000080B73C98)
+[LOG] SoundI::release                          :     Brick_Wall_Destroy_2 (0000000063418118)
+[LOG] SoundI::release                          :  (000000003FDD4FC8)
+[LOG] SoundI::release                          :     Jump Voice_02 (000000004031C958)
+[LOG] SoundI::release                          :  (0000000040440978)
+[LOG] SoundI::release                          :     Jump Voice_03 (000000004031ADB8)
+[LOG] SoundI::release                          :  (0000000040440808)
+[LOG] SoundI::release                          :     Jump Voice_04 (000000004031C478)
+[LOG] SoundI::release                          :  (000000004043FF68)
+[LOG] SoundI::release                          :     Jump Voice_01 (000000004031B438)
+[LOG] SoundI::release                          :  (0000000040440698)
+[LOG] SoundI::release                          :     Dash2 (000000004031C2D8)
+[LOG] SoundI::release                          :  (000000003FDD52A8)
+[LOG] SoundI::release                          :     TransitionBasic_2 (000000004031AF58)
+[LOG] SoundI::release                          :  (000000003FDD5E28)
+[LOG] SoundI::release                          :     TransitionBasic_3 (000000004031C618)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
