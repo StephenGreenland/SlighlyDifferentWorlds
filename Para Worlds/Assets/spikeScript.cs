@@ -10,6 +10,7 @@ public class spikeScript : MonoBehaviour
     bool isdead;
     float timer;
     public int currentlvl;
+    public GameObject Blood;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,8 @@ public class spikeScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //crate partical effect
+            Instantiate(Blood, new Vector3(other.gameObject.transform.position.x, other.gameObject.transform.position.y, other.gameObject.transform.position.z), Quaternion.identity);
+
             Destroy(other.gameObject);
             isdead = true;
             Debug.Log("imdying");
